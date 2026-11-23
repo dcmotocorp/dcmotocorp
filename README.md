@@ -12,9 +12,14 @@ I build Python APIs, data pipelines, and SaaS products. My experience includes D
 | [Multi-Tenant File-Sharing SaaS](projects/multi-tenant-file-sharing.md) | Built Django REST APIs, JWT and permission checks, PostgreSQL tenant isolation, and a Next.js client. | Architecture and responsibilities |
 | [MediCore Healthcare SaaS](projects/medicore-hms.md) | Built DRF APIs, PostgreSQL models, role-based access, and healthcare workflows for clinics and labs. | Architecture and responsibilities |
 | [Mission Guard Industrial Monitoring](projects/mission-guard.md) | Contributed REST APIs and networking modules for industrial device monitoring. | Architecture and responsibilities |
+| [Tenant Task API](https://github.com/dcmotocorp/tenant-task-api) | Runnable FastAPI service with tenant isolation, idempotent writes, versioned status transitions, transactional outbox, and HTTP tests. | [Source and run instructions](https://github.com/dcmotocorp/tenant-task-api) |
 | [Repo Validation Lab](https://github.com/dcmotocorp/repo-validation-lab) | Public Python validation gate with Docker, unit tests, and a runnable synthetic dataset. | [Source and run instructions](https://github.com/dcmotocorp/repo-validation-lab) |
 
-The first four links are high-level case studies of professional work. Their client repositories and production data are private; the descriptions do not imply that the code is public. Repo Validation Lab is an independent synthetic portfolio example with public code.
+The first four links are high-level case studies of professional work. Their client repositories and production data are private; the descriptions do not imply that the code is public. Tenant Task API and Repo Validation Lab are independent portfolio examples with public code.
+
+## Open-source contribution
+
+[Tracekit PR #1108](https://github.com/Cygnux-Labs/Tracekit/pull/1108) (open for review): added an AWS credential export policy hold, regression cases for both policy engines, and updated E17/E21 evaluation records. This is a proposed contribution to the upstream project; merge is pending maintainer review.
 
 ## Core skills
 
